@@ -1,0 +1,23 @@
+.flex-conteiner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    border: 4px solid #ccc;
+
+}
+
+
+.flex-item {
+    background-color: #f0f8ff;
+    border: 2px solid #005f6b; 
+    padding: 20px;
+    font-size: 1,5em;
+
+}
+
+@media (max-width: 600px) {
+      .flex-conteiner {
+        flex-direction: column;
+      }
+    }

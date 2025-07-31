@@ -1,0 +1,27 @@
+body {
+    margin 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(149, 210, 210);
+}
+
+
+.grid-conteiner {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border: 10px solid white;
+    gap: 10px;
+   
+
+}
+
+.grid-item {
+    background-color: #4e9aa4;
+    color: white;
+    padding: 20px;
+    font-size: 1,5em;
+    text-align: center;
+
+}
