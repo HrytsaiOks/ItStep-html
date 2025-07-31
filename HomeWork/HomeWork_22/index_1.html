@@ -3,15 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <title>Пример Flexbox</title>
-    <link rel="stylesheet" href="./style_22.css">
+    <link rel="stylesheet" href="/styles_1.css">
 </head>
 <body>
+    <div class="wrapper">
     <div class="flex-container">
-        <div class="flex-item">Элемент 1</div>
-        <div class="flex-item">Элемент 2</div>
-
-        
-        <div class="flex-item">Элемент 3</div>
+      <div class="flex-item">Элемент 1</div>
+      <div class="flex-item center">
+        <div>Элемент 2</div>
+        <div class="x-container">
+          <div class="x-item">Вложенный 1</div>
+          <div class="x-item">Вложенный 2</div>
+          <div class="x-item">Вложенный 3</div>
+        </div>
+      </div>
+      <div class="flex-item">Элемент 3</div>
     </div>
+  </div>
+ 
+        
 </body>
 </html>
